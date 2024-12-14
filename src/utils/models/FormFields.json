@@ -1,0 +1,235 @@
+{
+    "Register": {
+        "Password": {
+            "label": "Password",
+            "placeholder": "Enter your password",
+            "errors": {
+                "required": "enter valid Password",
+                "minLength": {
+                    "value": 8,
+                    "message": "password must have a minimum of 8 characters"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "password cannot exceed 16 characters"
+                }
+            }
+        },
+        "Phone": {
+            "label": "Number",
+            "placeholder": "Enter your number",
+            "errors": {
+                "required": "enter valid number"
+            }
+        },
+        "Email": {
+            "label": "Email",
+            "placeholder": "Enter your email",
+            "errors": {
+                "required": "field is required",
+                "invalid": "invalid email format"
+            }
+        }
+    },
+    "Login": {
+        "Email": {
+            "label": "Email",
+            "placeholder": "Enter your email",
+            "errors": {
+                "required": "field is required",
+                "invalid": "invalid email format"
+            }
+        },
+        "Phone": {
+            "label": "Number",
+            "placeholder": "Enter your number",
+            "errors": {
+                "required": "enter valid number"
+            }
+        },
+        "Password": {
+            "label": "Password",
+            "placeholder": "Enter your password",
+            "errors": {
+                "required": "enter valid Password",
+                "minLength": {
+                    "value": 8,
+                    "message": "password must have a minimum of 8 characters"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "password cannot exceed 16 characters"
+                }
+            }
+        }
+    },
+    "Otp": {
+        "Otp": {
+            "label": "otp",
+            "placeholder": "Otp",
+            "errors": {
+                "required": "otp is required",
+                "pattern": {
+                    "value": 6,
+                    "message": "enter 6 digit code sent to your register number"
+                }
+            }
+        }
+    },
+    "SetPassword": {
+        "Password": {
+            "label": "Password",
+            "placeholder": "Enter your password",
+            "errors": {
+                "required": "enter valid Password",
+                "minLength": {
+                    "value": 8,
+                    "message": "password must have a minimum of 8 characters"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "password cannot exceed 16 characters"
+                }
+            }
+        },
+        "ConfirmPassword": {
+            "label": "Confirm Password",
+            "placeholder": "Confirm new password",
+            "errors": {
+                "required": "enter valid Password",
+                "match": "password must match"
+            }
+        }
+    },
+    "ForgotPassword": {
+        "Email": {
+            "label": "Email",
+            "placeholder": "Enter your email",
+            "errors": {
+                "required": "field is required",
+                "invalid": "invalid email format"
+            }
+        },
+        "Phone": {
+            "label": "Number",
+            "placeholder": "Enter your number",
+            "errors": {
+                "required": "enter valid number"
+            }
+        }
+    },
+    "profile": {
+        "file": {
+            "label": "file",
+            "placeholder": "file ",
+            "errors": {
+                "required": "file is required"
+            }
+        }
+    },
+    "edit_profile": {
+        "name": {
+            "label": "Name",
+            "placeholder": "enter your full name",
+            "errors": {
+                "required": "name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "minimum of 3 characters"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "cannot exceed 50 characters"
+                }
+            }
+        },
+        "email": {
+            "label": "Email",
+            "placeholder": "enter your email",
+            "errors": {
+                "required": "email is required",
+                "invalid": "invalid email format"
+            }
+        }
+    },
+    "change_password": {
+        "old_password": {
+            "label": "Old Password",
+            "placeholder": "enter old password",
+            "errors": {
+                "required": "enter valid Password",
+                "minLength": {
+                    "value": 8,
+                    "message": "password must have a minimum of 8 characters"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "password cannot exceed 16 characters"
+                }
+            }
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "enter new password",
+            "errors": {
+                "required": "enter valid Password",
+                "minLength": {
+                    "value": 8,
+                    "message": "password must have a minimum of 8 characters"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "password cannot exceed 16 characters"
+                }
+            }
+        },
+        "confirm_password": {
+            "label": "Confirm Password",
+            "placeholder": "confirm new password",
+            "errors": {
+                "required": "enter valid Password",
+                "match": "password must match"
+            }
+        }
+    }, 
+    "contact_us": {
+        "name": {
+            "label": "Name",
+            "placeholder": "enter your full name",
+            "errors": {
+                "required": "name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "minimum of 3 characters"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "cannot exceed 50 characters"
+                }
+            }
+        },
+        "email": {
+            "label": "Email",
+            "placeholder": "enter your email",
+            "errors": {
+                "required": "field is required",
+                "invalid": "invalid email format"
+            }
+        },
+        "message": {
+            "label": "Message",
+            "placeholder": "enter your message here...",
+            "errors": {
+                "required": "message is required",
+                "minLength": {
+                    "value": 20,
+                    "message": "message has to be minimum 50 characters!"
+                },
+                "maxLength": {
+                    "value": 200,
+                    "message": "message can not exceed 200 characters!"
+                }
+            }
+        }
+    }
+}

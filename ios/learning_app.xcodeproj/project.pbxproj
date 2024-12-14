@@ -8,15 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* learning_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* learning_appTests.m */; };
+		0FD989C1370243EDAD9C82C8 /* Outfit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23678212D70F4CC1AD11CF41 /* Outfit-Black.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		26107618EE7C4383BAD2C47F /* Figtree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCCE38C8A0364DDA87639F62 /* Figtree-Light.ttf */; };
+		2AE0B7ED2CEA4C9A9CEF1D2F /* Outfit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E61F8E145A945D3B49FED9A /* Outfit-Light.ttf */; };
+		37FFD8B13DEB4F0FBC3D96AE /* Outfit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F34B18A1CE7B48D09434BD7C /* Outfit-Thin.ttf */; };
+		41733E2EF4FD404993A92592 /* Figtree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2E230DA8A5D4AD9B46250FD /* Figtree-Regular.ttf */; };
 		5A77E8F5F1C1800FD463EF90 /* Pods_learning_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C4E596115A5DFE95BADE5E /* Pods_learning_app.framework */; };
+		5CED466D792B46BAB4A07CB6 /* Outfit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98766CB16336402280B9488C /* Outfit-Bold.ttf */; };
 		6F0AFA792CD07C93006D9D73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F0AFA782CD07C93006D9D73 /* GoogleService-Info.plist */; };
 		6F0AFA7A2CD07C93006D9D73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F0AFA782CD07C93006D9D73 /* GoogleService-Info.plist */; };
+		74CAB30EB2EC40239ECA87B7 /* Figtree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90283770E796405296EBB2B0 /* Figtree-Bold.ttf */; };
+		77DCA385DDEE410A9E164B70 /* Outfit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45A1181327CB4241A31CDA9D /* Outfit-ExtraLight.ttf */; };
 		786D586A7E6C6D2D2BEBCB05 /* Pods_learning_app_learning_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D189733E540E9E9F128A4F /* Pods_learning_app_learning_appTests.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		94B1AE717AF9489D9CBD8F4A /* Figtree-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482505919BED499F906587B4 /* Figtree-ExtraBold.ttf */; };
+		A8C8DA8F83B84D7EAEFEF960 /* Outfit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F1427003DC446548E30BE14 /* Outfit-Medium.ttf */; };
+		AE09201952104DB09EBFBA21 /* Figtree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3A0F37FE8A43B7BA5243BA /* Figtree-Medium.ttf */; };
+		AFED974658B9492FB3CFC1E5 /* Figtree-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4309DD7EA2D5476094F590E5 /* Figtree-Black.ttf */; };
+		B3578138DC3B4BD6B1EC6B8B /* Outfit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F06E623AB71043B78DAF157A /* Outfit-SemiBold.ttf */; };
 		BF92E37A9B23F094358A4CC6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		C5E8AC7369054F56BED32F85 /* Outfit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EE43C6BB80A49AA843F0B8D /* Outfit-ExtraBold.ttf */; };
+		EC467D8490394172AEF5DD0D /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F28A9B38E4E848758063DB05 /* Outfit-Regular.ttf */; };
+		EEC54297D50D4E588623EFA5 /* Figtree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB7CFB0CC39448939996739F /* Figtree-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* learning_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learning_appTests.m; sourceTree = "<group>"; };
 		0C1A93DFBF685751663E2330 /* Pods-learning_app-learning_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learning_app-learning_appTests.debug.xcconfig"; path = "Target Support Files/Pods-learning_app-learning_appTests/Pods-learning_app-learning_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F1427003DC446548E30BE14 /* Outfit-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Medium.ttf"; path = "../assets/fonts/Outfit-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* learning_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learning_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = learning_app/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = learning_app/AppDelegate.mm; sourceTree = "<group>"; };
@@ -41,13 +58,28 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = learning_app/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = learning_app/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = learning_app/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		23678212D70F4CC1AD11CF41 /* Outfit-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Black.ttf"; path = "../assets/fonts/Outfit-Black.ttf"; sourceTree = "<group>"; };
+		3EE43C6BB80A49AA843F0B8D /* Outfit-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-ExtraBold.ttf"; path = "../assets/fonts/Outfit-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4309DD7EA2D5476094F590E5 /* Figtree-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Black.ttf"; path = "../assets/fonts/Figtree-Black.ttf"; sourceTree = "<group>"; };
+		45A1181327CB4241A31CDA9D /* Outfit-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-ExtraLight.ttf"; path = "../assets/fonts/Outfit-ExtraLight.ttf"; sourceTree = "<group>"; };
+		482505919BED499F906587B4 /* Figtree-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-ExtraBold.ttf"; path = "../assets/fonts/Figtree-ExtraBold.ttf"; sourceTree = "<group>"; };
 		55D189733E540E9E9F128A4F /* Pods_learning_app_learning_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learning_app_learning_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0AFA782CD07C93006D9D73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E61F8E145A945D3B49FED9A /* Outfit-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Light.ttf"; path = "../assets/fonts/Outfit-Light.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = learning_app/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90283770E796405296EBB2B0 /* Figtree-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Bold.ttf"; path = "../assets/fonts/Figtree-Bold.ttf"; sourceTree = "<group>"; };
+		98766CB16336402280B9488C /* Outfit-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Bold.ttf"; path = "../assets/fonts/Outfit-Bold.ttf"; sourceTree = "<group>"; };
+		AB7CFB0CC39448939996739F /* Figtree-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-SemiBold.ttf"; path = "../assets/fonts/Figtree-SemiBold.ttf"; sourceTree = "<group>"; };
+		BCCE38C8A0364DDA87639F62 /* Figtree-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Light.ttf"; path = "../assets/fonts/Figtree-Light.ttf"; sourceTree = "<group>"; };
 		C0C4E596115A5DFE95BADE5E /* Pods_learning_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learning_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E230DA8A5D4AD9B46250FD /* Figtree-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Regular.ttf"; path = "../assets/fonts/Figtree-Regular.ttf"; sourceTree = "<group>"; };
 		CF3BBF48A84B027F71782D8C /* Pods-learning_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learning_app.debug.xcconfig"; path = "Target Support Files/Pods-learning_app/Pods-learning_app.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F06E623AB71043B78DAF157A /* Outfit-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-SemiBold.ttf"; path = "../assets/fonts/Outfit-SemiBold.ttf"; sourceTree = "<group>"; };
+		F28A9B38E4E848758063DB05 /* Outfit-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Regular.ttf"; path = "../assets/fonts/Outfit-Regular.ttf"; sourceTree = "<group>"; };
+		F34B18A1CE7B48D09434BD7C /* Outfit-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Thin.ttf"; path = "../assets/fonts/Outfit-Thin.ttf"; sourceTree = "<group>"; };
 		F97B074B3003B0BC7A8421CC /* Pods-learning_app-learning_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learning_app-learning_appTests.release.xcconfig"; path = "Target Support Files/Pods-learning_app-learning_appTests/Pods-learning_app-learning_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC3A0F37FE8A43B7BA5243BA /* Figtree-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Medium.ttf"; path = "../assets/fonts/Figtree-Medium.ttf"; sourceTree = "<group>"; };
 		FFEBA658977C80E66B212642 /* Pods-learning_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learning_app.release.xcconfig"; path = "Target Support Files/Pods-learning_app/Pods-learning_app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +161,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E4DB27D1AF3F45EBABDE0B8D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -153,6 +186,30 @@
 				F97B074B3003B0BC7A8421CC /* Pods-learning_app-learning_appTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4DB27D1AF3F45EBABDE0B8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4309DD7EA2D5476094F590E5 /* Figtree-Black.ttf */,
+				90283770E796405296EBB2B0 /* Figtree-Bold.ttf */,
+				482505919BED499F906587B4 /* Figtree-ExtraBold.ttf */,
+				BCCE38C8A0364DDA87639F62 /* Figtree-Light.ttf */,
+				FC3A0F37FE8A43B7BA5243BA /* Figtree-Medium.ttf */,
+				C2E230DA8A5D4AD9B46250FD /* Figtree-Regular.ttf */,
+				AB7CFB0CC39448939996739F /* Figtree-SemiBold.ttf */,
+				23678212D70F4CC1AD11CF41 /* Outfit-Black.ttf */,
+				98766CB16336402280B9488C /* Outfit-Bold.ttf */,
+				3EE43C6BB80A49AA843F0B8D /* Outfit-ExtraBold.ttf */,
+				45A1181327CB4241A31CDA9D /* Outfit-ExtraLight.ttf */,
+				7E61F8E145A945D3B49FED9A /* Outfit-Light.ttf */,
+				0F1427003DC446548E30BE14 /* Outfit-Medium.ttf */,
+				F28A9B38E4E848758063DB05 /* Outfit-Regular.ttf */,
+				F06E623AB71043B78DAF157A /* Outfit-SemiBold.ttf */,
+				F34B18A1CE7B48D09434BD7C /* Outfit-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +311,22 @@
 				6F0AFA792CD07C93006D9D73 /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				BF92E37A9B23F094358A4CC6 /* PrivacyInfo.xcprivacy in Resources */,
+				AFED974658B9492FB3CFC1E5 /* Figtree-Black.ttf in Resources */,
+				74CAB30EB2EC40239ECA87B7 /* Figtree-Bold.ttf in Resources */,
+				94B1AE717AF9489D9CBD8F4A /* Figtree-ExtraBold.ttf in Resources */,
+				26107618EE7C4383BAD2C47F /* Figtree-Light.ttf in Resources */,
+				AE09201952104DB09EBFBA21 /* Figtree-Medium.ttf in Resources */,
+				41733E2EF4FD404993A92592 /* Figtree-Regular.ttf in Resources */,
+				EEC54297D50D4E588623EFA5 /* Figtree-SemiBold.ttf in Resources */,
+				0FD989C1370243EDAD9C82C8 /* Outfit-Black.ttf in Resources */,
+				5CED466D792B46BAB4A07CB6 /* Outfit-Bold.ttf in Resources */,
+				C5E8AC7369054F56BED32F85 /* Outfit-ExtraBold.ttf in Resources */,
+				77DCA385DDEE410A9E164B70 /* Outfit-ExtraLight.ttf in Resources */,
+				2AE0B7ED2CEA4C9A9CEF1D2F /* Outfit-Light.ttf in Resources */,
+				A8C8DA8F83B84D7EAEFEF960 /* Outfit-Medium.ttf in Resources */,
+				EC467D8490394172AEF5DD0D /* Outfit-Regular.ttf in Resources */,
+				B3578138DC3B4BD6B1EC6B8B /* Outfit-SemiBold.ttf in Resources */,
+				37FFD8B13DEB4F0FBC3D96AE /* Outfit-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
