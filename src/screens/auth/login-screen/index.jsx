@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 
 /** Libraries */
@@ -13,6 +13,7 @@ import Layout from '../../../components/layout';
 import SubmitButton from '../../../components/submit-button';
 import auth from '@react-native-firebase/auth';
 import { useAuth } from '../../../utils/context/AuthContext';
+import { toast } from '../../../utils/helpers/metrics';
 
 const LogInScreen = () => {
 
@@ -22,7 +23,7 @@ const LogInScreen = () => {
 
     const [Loading, SetLoading] = useState(false)
 
-    const { reset, control, handleSubmit } = useForm({
+    const { reset, control, handleSubmit, setValue } = useForm({
         resolver: yupResolver(Schema),
     })
 
@@ -35,29 +36,26 @@ const LogInScreen = () => {
 
             if (!UserCredential.user?.emailVerified) {
                 await auth().currentUser.sendEmailVerification();
+                toast("error", { title: "Please verify your email. Verification email sent!" });
             }
-
+            
             login({
                 Token: idToken || null,
             })
+            toast("success", {title:"login succcessfull"})
+
 
         } catch (error) {
             console.log(" error:", error)
+
+            toast("error", { title: errorMessage });
         }
     }
+    
 
     const FormBuilder = [
-        // {
-        //     name: 'Email',
-        //     parent: 'Login',
-        //     type: 'text',
-        //     control,
-        //     label: true,
-        //     placeholder: true,
-        //     styles: AuthStyles,
-        // },
         {
-            name: 'Phone',
+            name: 'Email',
             parent: 'Login',
             type: 'text',
             control,
@@ -65,6 +63,15 @@ const LogInScreen = () => {
             placeholder: true,
             styles: AuthStyles,
         },
+        // {
+        //     name: 'Phone',
+        //     parent: 'Login',
+        //     type: 'text',
+        //     control,
+        //     label: true,
+        //     placeholder: true,
+        //     styles: AuthStyles,
+        // },
         {
             name: 'Password',
             parent: 'Login',
@@ -75,6 +82,11 @@ const LogInScreen = () => {
             styles: AuthStyles,
         },
     ]
+
+    useEffect(() => {
+     setValue("Email","pdas2142000@gmail.com")
+     setValue("Password","11111111")
+    }, []);
     return (
         <Layout heading="Login to Your Account">
             {FormBuilder.map((item, index) => {
@@ -105,13 +117,13 @@ export default LogInScreen;
 
 const EmailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 const Schema = yup.object().shape({
-    // Email: yup
-    //     .string()
-    //     .required(Formfields.Login.Email.errors.required)
-    //     .matches(EmailRegex, Formfields.Login.Email.errors.invalid),
-    Phone: yup
+    Email: yup
         .string()
-        .required(Formfields.Login.Phone.errors.required),
+        .required(Formfields.Login.Email.errors.required)
+        .matches(EmailRegex, Formfields.Login.Email.errors.invalid),
+    // Phone: yup
+    //     .string()
+    //     .required(Formfields.Login.Phone.errors.required),
 
     Password: yup
         .string()

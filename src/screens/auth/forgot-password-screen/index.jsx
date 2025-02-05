@@ -46,17 +46,8 @@ const ForgotPasswordScreen = () => {
     }
 
     const FormBuilder = [
-        // {
-        //     name: 'Email',
-        //     parent: 'ForgotPassword',
-        //     type: 'text',
-        //     control,
-        //     label: true,
-        //     placeholder: true,
-        //     styles: AuthStyles,
-        // },
         {
-            name: 'Phone',
+            name: 'Email',
             parent: 'ForgotPassword',
             type: 'text',
             control,
@@ -64,6 +55,15 @@ const ForgotPasswordScreen = () => {
             placeholder: true,
             styles: AuthStyles,
         },
+        // {
+        //     name: 'Phone',
+        //     parent: 'ForgotPassword',
+        //     type: 'text',
+        //     control,
+        //     label: true,
+        //     placeholder: true,
+        //     styles: AuthStyles,
+        // },
     ]
     return (
         <Layout
